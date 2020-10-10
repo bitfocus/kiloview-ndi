@@ -1,0 +1,14 @@
+{
+  "name": "kiloview-ndi",
+  "version": "1.0.0",
+  "description": "Control the Kiloview N40 NDI encoder/decoder",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Håkon Nessjøen <haakon@bitfocus.io>",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.20.0"
+  }
+}
