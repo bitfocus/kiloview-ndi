@@ -7,7 +7,14 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Håkon Nessjøen <haakon@bitfocus.io>",
-  "license": "ISC",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bitfocus/kiloview-ndi.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bitfocus/kiloview-ndi/issues"
+  },
   "dependencies": {
     "axios": "^0.20.0"
   }
