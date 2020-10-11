@@ -3,7 +3,7 @@
 ## Installation
 
 ```bash
-npm install device-motion # OR yarn add device-motion
+npm install kiloview-ndi # OR yarn add kiloview-ndi
 ```
 
 Easily control the converters over their simple API. Remember to add a user to the device, and give it HTTP API access.
