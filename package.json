@@ -1,6 +1,6 @@
 {
   "name": "kiloview-ndi",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Control the Kiloview N40 NDI encoder/decoder",
   "main": "index.js",
   "scripts": {
@@ -16,6 +16,6 @@
     "url": "https://github.com/bitfocus/kiloview-ndi/issues"
   },
   "dependencies": {
-    "axios": "^0.20.0"
+    "axios": "^0.21.1"
   }
 }
