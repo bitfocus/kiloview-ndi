@@ -1,4 +1,4 @@
-export declare class kiloviewNDI {
+export default class kiloviewNDI {
     public connection_info: {
         ip: string;
         username: string;
