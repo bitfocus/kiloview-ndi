@@ -16,7 +16,7 @@ class kiloviewNDI {
 		session: ''
 	}
 
-	constructor(ip, username, password) {
+	constructor(ip, username, password, timeout = 2000) {
 		this.connection_info = {
 			ip,
 			username,
@@ -24,7 +24,8 @@ class kiloviewNDI {
 		}
 
 		this.client = axios.create({
-			baseURL: 'http://' + ip + '/api/v1'
+			baseURL: 'http://' + ip + '/api/v1',
+            timeout
 		});
 	}
 
