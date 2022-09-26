@@ -41,7 +41,7 @@ export default class kiloviewNDI {
         name: string,
         yRes: number
     }>;
-    decoderCurrentSetPreset(id: string): Promise<any>;
+    decoderCurrentSetPreset(id: number): Promise<any>;
     decoderCurrentSetUrl(name: string, url: string): Promise<any>;
     /**
      * Set blank screen with custom color
