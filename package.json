@@ -1,6 +1,6 @@
 {
   "name": "kiloview-ndi",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Control the Kiloview N40 NDI encoder/decoder",
   "main": "index.js",
   "scripts": {
